@@ -1,59 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
-  <head>
+	  <head>
 	  
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>The First Three Presidents of the United States</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <!-- Bootstrap -->
+	    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     
-  </head>
-  <body>
-   <div class="container">
+	  </head>
+	  <body>
+	 
+		  <nav class="navbar navbar-default navbar-fixed-top">
+			<ul class="nav navbar-nav">
+			   <li><a href="bio.html">John's Bio</a></li>
+			   <li><a href="http://en.wikipedia.org/wiki/George_Washington">George Washington</a></li>
+			   <li><a href="http://en.wikipedia.org/wiki/John_Adams">John Adams </a></li>
+			   <li><a href="http://en.wikipedia.org/wiki/Thomas_Jefferson">Thomas Jefferson </a></li>
+		   
+			</ul>
+		  </nav>
+		  <br> <br> <br> <br> <br>
+	   <div class="container">
 
-  	 <div class="jumbotron text-center bg-danger">
+	  	 <div class="jumbotron text-center bg-danger">
+			 	<h1>The First Three Presidents of the United States</h1>
+				<p>I will list the first three presidents of the United States America</p>
+		</div>		
+		
+		<div>
+			<h2>Video</h2>
+			<div class="form-group">
+		        <div class="videoUiWrapper thumbnail">
+		            <video width="100%" controls>
+		            <!-- set width to 100% and add controls for play and volume buttons-->
+		                <source src="oceans.mp4" type="video/mp4" />
+		                Your browser does not support the video tag.
+		            </video>
+		        </div>
+		    </div>
+		</div>
+		<br> 
+		<div>
+			<h2>Audio</h2>
+			<audio id="helloaudio" src="Hail to the Chief.mp3" controls>Your browser doesn't handle audio </audio>
+		</div>
+ 	   	<br>
+	  <div class="row">
+		     <div class="col-md-6 col-sm-4 bg-danger">
+			  <h1>#1</h1>
+			  <p>George Washington</p>
+			 </div>
+			 <div class="col-md-3 col-sm-4 bg-warning">
+			  <h1>#2</h1>
+			  <p>John Adams</p>
+			 </div>
+			 <div class="col-md-3 col-sm-4 bg-primary">
+			  <h1>#3</h1>
+			  <p>Thomas Jefferson</p>
+			 </div>
+	   </div>	 
+	   <br>
+	    <div class="row">
+	  	     <div class="col-md-12">
+			  <table class="table table-striped">
+			  			 <tr>
+			  		 		<td>
+			  		 		   <img style="width: 250px;" id="J" src="J.jpg">
+			  		 	  	</td>
+			  		 	 	<td>
+			  				 	<a href="http://en.wikipedia.org/wiki/Thomas_Jefferson">#3 Thomas Jefferson</a>
+			  		 		</td>
+			  		 		<td>
+			  		 	   	 	Thomas Jefferson was a draftsman of the Declaration of Independence and the third U.S. president (1801-09). He was also responsible for the Louisiana Purchase.
+			  				</td>
+			  		 	</tr>
+ 
+	 				   <tr>
+						   <td>
+		  					 <img style="width: 250px;" id="A" src="A.jpg">
+	  					 </td>
+	 					 <td>
+		 					 <a href="http://en.wikipedia.org/wiki/John_Adams">#2 John Adams</a>
+						 </td>
+						 <td>
+	   	 					 John Adams was a Founding Father, the first vice president of the United States and the second president. 
+						 </td>
+					 </tr>
+ 
+					   <tr>
+					   <td>
+	  					 <img style="width: 250px;" id="W" src="W.jpg">
+	 					 </td>
+						 <td>
+	 					 <a href="http://en.wikipedia.org/wiki/George_Washington">#1 George Washington</a>
+					 </td>
+					 <td>
+	  	 					 George Washington was a leader of the Continental Army in the American Revolution, and was the first to become U.S. president.
+					 </td>
+				 </tr>
+ 
+			  		 </table>
+	  		 </div> 
+	  	</div>	
 	
-		 	<h1>Lost?</h1>
-			<p>Never get lost again with the GPS finder!!! </p>
-	</Div>		
-  </div>
-  <div class="row">
-	     <div class="col-md-6 col-sm-4 bg-danger">
-		  <h1>Red</h1>
-		  <p>Red light!</p>
-		 </div>
-		 <div class="col-md-3 col-sm-4 bg-warning">
-		  <h1>Yellow</h1>
-		  <p>Yellow light!</p>
-		 </div>
-		 <div class="col-md-3 col-sm-4 bg-success">
-		  <h1>Green</h1>
-		  <p>Green light!</p>
-		 </div>
-   </div>	 
-   
-   <div class="row">
- 	     <div class="col-md-4 col-sm-4 bg-primary">
-		  <h1>Blue</h1>
-		  <p>Blue light!</p>
- 		 </div>
- 		 <div class="col-md-8 col-sm-4 bg-info">
-		  <h1>Light Blue</h1>
-		  <p>Light Blue light!</p>
- 		 </div> 
- 		 <div class="col-md-8 col-sm-4 bg-default">
-		  <h1>White</h1>
-		  <p>White light!</p>
- 		 </div>
-  </div>  
+	
+	  </div>  
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="/js/bootstrap.min.js"></script>
+	  </body>
+	</html>
