@@ -1,0 +1,6 @@
+html, body {
+    background: url("background.jpg") !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
